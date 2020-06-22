@@ -1,0 +1,20 @@
+Statistical + Individual Fairness Simulation Parameters 
+Dataset used                             : ./data/processed/census1990/census1990_1.pkl 
+Number of samples                        : 80 
+Num clusters                             : 10 
+Num nearest neighbours                   : 8 
+Delta                                    : 0.2 
+Statistical Distance                     : TV Distance 
+Euclidean Distance                       : L2 Distance 
+Normalise Stat Distance?                 : No 
+Normalise Euc Distance?                  : Yes 
+
+Algorithm Cost
+Hard KMeans                              : 2.78
+Statistical + Individual fairness        : 3.44
+Uniform assignment                       : 29.26
+Percentage decrease (hard vs alg)        : 19.29
+Percentage increase (uniform vs alg)     : 749.99
+GroupwiseViolations                      : 0.0
+Statistical Bias                         : 0.09
+Earthmover Distance                      : 0.27

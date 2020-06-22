@@ -1,0 +1,20 @@
+Opt Statistical + Individual Fairness Simulation Parameters 
+Dataset used                             : ./data/processed/creditcard/creditcard_1.pkl 
+Number of samples                        : 80 
+Num clusters                             : 10 
+Num nearest neighbours                   : 20 
+Delta                                    : 0.2 
+Statistical Distance                     : TV Distance 
+Euclidean Distance                       : L2 Distance 
+Normalise Stat Distance?                 : No 
+Normalise Euc Distance?                  : Yes 
+
+Algorithm Cost
+Hard KMeans                              : 1.75
+Statistical + Individual fairness        : 2.7
+Uniform assignment                       : 23.02
+Percentage decrease (hard vs alg)        : 35.02
+Percentage increase (uniform vs alg)     : 753.76
+GroupwiseViolations                      : 0.0
+Statistical Bias                         : 0.04
+Earthmover Distance                      : 0.22

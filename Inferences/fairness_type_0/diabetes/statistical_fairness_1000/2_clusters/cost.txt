@@ -1,0 +1,20 @@
+Statistical Fairness Simulation Parameters 
+Dataset used                             : ./data/processed/diabetes/diabetes_1.pkl 
+Number of samples                        : 1000 
+Num clusters                             : 2 
+Delta                                    : 0.2 
+Statistical Distance                     : TV Distance 
+Euclidean Distance                       : L2 Distance 
+Normalise Stat Distance?                 : No 
+Normalise Euc Distance?                  : Yes 
+
+Algorithm Cost
+Hard KMeans                              : 1.94
+Statistical fairness                     : 1.95
+Uniform assignment                       : 6.6
+Percentage decrease (hard vs alg)        : 0.13
+Percentage increase (uniform vs alg)     : 239.02
+PercentageViolations                     : 18.76
+GroupwiseViolations                      : 18.87
+Statistical Bias                         : 0.08
+Earthmover Distance                      : 0.22

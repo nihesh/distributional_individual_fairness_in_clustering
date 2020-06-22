@@ -1,0 +1,20 @@
+Statistical + Individual Fairness Simulation Parameters 
+Dataset used                             : ./data/processed/bank/bank_1.pkl 
+Number of samples                        : 80 
+Num clusters                             : 4 
+Num nearest neighbours                   : 20 
+Delta                                    : 0.2 
+Statistical Distance                     : TV Distance 
+Euclidean Distance                       : L2 Distance 
+Normalise Stat Distance?                 : No 
+Normalise Euc Distance?                  : Yes 
+
+Algorithm Cost
+Hard KMeans                              : 0.85
+Statistical + Individual fairness        : 1.4
+Uniform assignment                       : 3.46
+Percentage decrease (hard vs alg)        : 38.82
+Percentage increase (uniform vs alg)     : 147.78
+GroupwiseViolations                      : 0.0
+Statistical Bias                         : 0.03
+Earthmover Distance                      : 0.21

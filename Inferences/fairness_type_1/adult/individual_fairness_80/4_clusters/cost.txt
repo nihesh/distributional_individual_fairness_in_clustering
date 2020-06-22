@@ -1,0 +1,19 @@
+Individual Fairness Simulation Parameters 
+Dataset used                             : ./data/processed/adult/adult_1.pkl 
+Number of samples                        : 80 
+Num clusters                             : 4 
+Num nearest neighbours                   : 20 
+Statistical Distance                     : TV Distance 
+Euclidean Distance                       : L2 Distance 
+Normalise Stat Distance?                 : No 
+Normalise Euc Distance?                  : Yes 
+
+Algorithm Cost
+Hard KMeans                              : 1.23
+Individual fairness                      : 1.29
+Uniform assignment                       : 4.91
+Percentage decrease (hard vs alg)        : 4.63
+Percentage increase (uniform vs alg)     : 281.09
+PercentageViolations                     : 0.0
+Statistical Bias                         : 0.63
+Earthmover Distance                      : 0.4

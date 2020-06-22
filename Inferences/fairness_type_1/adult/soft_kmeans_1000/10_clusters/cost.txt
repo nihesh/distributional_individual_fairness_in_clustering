@@ -1,0 +1,18 @@
+Soft_KMeans Simulation Parameters 
+Dataset used                             : ./data/processed/adult/adult_1.pkl 
+Number of clusters                       : 10 
+Num samples                              : 1000 
+Num nearest neighbours                   : 100 
+Soft Clustering Method                   : Negative L2 Distance normalised by softmax 
+Euclidean distance metric                : L2 Distance 
+Normalise Euc distance?                  : Yes 
+Statistical distance metric              : TV Distance 
+Normalise Stat distance?                 : No 
+
+Algorithm Cost
+Hard K-Means                             : 0.87
+Soft K-Means                             : 0.89
+Uniform                                  : 6.17
+Percentage decrease (hard wrt alg)       : 2.56
+Percentage increase (uniform wrt alg)    : 594.18
+PercentageViolations                     : 20.12

@@ -1,0 +1,18 @@
+Soft_KMeans Simulation Parameters 
+Dataset used                             : ./data/processed/diabetes/diabetes_1.pkl 
+Number of clusters                       : 6 
+Num samples                              : 1000 
+Num nearest neighbours                   : 166 
+Soft Clustering Method                   : Negative L2 Distance normalised by softmax 
+Euclidean distance metric                : L2 Distance 
+Normalise Euc distance?                  : Yes 
+Statistical distance metric              : TV Distance 
+Normalise Stat distance?                 : No 
+
+Algorithm Cost
+Hard K-Means                             : 1.57
+Soft K-Means                             : 1.57
+Uniform                                  : 9.23
+Percentage decrease (hard wrt alg)       : 0.2
+Percentage increase (uniform wrt alg)    : 486.11
+PercentageViolations                     : 33.34
